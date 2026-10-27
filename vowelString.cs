@@ -20,8 +20,8 @@ namespace Vowels_String
             }
             if(!flag)
                 throw new ArgumentException("unvalid string");
-            else
-                Console.WriteLine(word);
+            
+            Console.WriteLine(word);
 
         }
     }
