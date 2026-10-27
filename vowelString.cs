@@ -19,7 +19,7 @@ namespace Vowels_String
                 }
             }
             if(!flag)
-                Console.WriteLine("the string doesn't contain Vowels");
+                throw new ArgumentException("unvalid string");
             else
                 Console.WriteLine(word);
 
