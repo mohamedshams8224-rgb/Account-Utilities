@@ -15,8 +15,8 @@ namespace different_integers
                     unDuplicate.Add(arr[i]);
                 }else
                 {
-                    Console.WriteLine("already exist");
-                    continue;
+                    
+                    throw new Exception("duplicated integer");
 
                 }
             }
